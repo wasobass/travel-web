@@ -1,7 +1,7 @@
 .bg{
     position: relative;
     height: 100vh;
-    background-image: url(../image/licensed-image.jpeg);
+    background-image: url(/assets/image/licensed-image.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
