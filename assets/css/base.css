@@ -1,0 +1,59 @@
+:root{
+    --primary-color: #68c3bb;
+    --hover-color: #1a422d;
+    --secondary-color: #1f6340;
+    --third-color: #b9e0cd;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+@font-face {
+    font-family: 'MyHelvetica';
+    src: url(assets/helvetica/Helvetica.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'MyHelvetica';
+    src: url(assets/helvetica/Helvetica-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: 'MyHelvetica', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+.search-btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 999px;
+    color: var(--white-color);
+    height: 45px;
+    min-width: 70px;
+    margin-right: -6px;
+    padding: 0 27px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.search-btn:hover{
+    background-color: var(--hover-color);
+}
+
+.search-btn a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
